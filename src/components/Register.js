@@ -65,7 +65,7 @@ async function handlesubmit(e){
             localStorage.setItem('user',JSON.stringify(newobject))
             
 
-            history("/create")
+            history("/")
             
         }else{
             console.log(data)
